@@ -1,5 +1,3 @@
-//огромный шаг для человека, но шаг назад для всего человечества!
-
 const tableBody = document.querySelector('.table-body');
 let tableRows = document.querySelectorAll('.table-row');
 let elQuantity = document.querySelector('.table-actions__select');
@@ -61,21 +59,4 @@ function addElem() {
             addRow();
         }
     }        
-}
-//огромный шаг для человека, но шаг назад для всего человечества!
-
-
-
-// console.log("Начинаем внешний цикл");
-// nextPrime: for (var i = 2; i < 10; i++) {
-//   console.log("  Итерация внешнего цикла. i = " + i);
-//   if (2 < i)
-//     console.log("  Начинаем внутренний цикл");
-//   for (var j = 2; j < i; j++) {
-//     console.log("    Итерация внутреннего цикла. j = " + j + ", i = " + i);
-//     if (i % j === 0) {
-//       console.log("    Условие (i % j === 0) выполнено. запускаем новую итерацию внешнего цикла");
-//       continue nextPrime;
-//     }
-//   }
-// }
+} 
