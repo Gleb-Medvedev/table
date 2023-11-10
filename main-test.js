@@ -1,5 +1,5 @@
 //Прикольно, но хуйня
-
+// asd
 // function addCol() {
 //     tableRow.forEach(row => {
 //         for (let i = 1; i < 4; i++) {
