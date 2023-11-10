@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>table</title>
+</head>
+<body>
+    <div class="modal-alert">
+        <div class="modal-alert__container">
+            <div>
+                <h2>Внимание!</h2>
+                <span>Применено стандартное значение!<br>(1)</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="table">
+            <div class="table-actions">
+                <select name="выберите количество" class="table-actions__select">
+                    <option value="">выберите количество элементов</option>
+                    <option value="1" class="table-actions__select-text">1</option>
+                    <option value="2" class="table-actions__select-text">2</option>
+                    <option value="3" class="table-actions__select-text">3</option>
+                </select>
+                <button type="button" class="table-actions__btn">
+                    <div class="table-actions__btn-wrap">
+                        <span class="table-actions__btn-text">Добавить столбец</span>
+                        <span class="table-actions__btn-text">Добавить строку</span>                                                                        
+                    </div>
+                </button>
+            </div>
+            <div class="table-body"></div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
